@@ -2,7 +2,6 @@
 import React from "react";
 import { ProductSchema } from "@/src/schema";
 import { toast } from "react-toastify";
-import { createProduct } from "@/actions/create-product-action";
 import { useRouter } from "next/navigation";
 import { updateProduct } from "@/actions/update-product-action";
 import {useParams} from 'next/navigation'
